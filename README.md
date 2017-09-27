@@ -13,4 +13,9 @@
     LoginViewController * login = [[LoginViewController alloc] init];
     [self.navigationController pushViewController:login animated:YES];
 
+# 项目截图
+
+![Image text](https://raw.githubusercontent.com/HaiZI520/img/master/login/1.png)![Image text](https://raw.githubusercontent.com/HaiZI520/img/master/login/2.png)
+
+![Image text](https://raw.githubusercontent.com/HaiZI520/img/master/login/3.png)![Image text](https://raw.githubusercontent.com/HaiZI520/img/master/login/4.png)
 
