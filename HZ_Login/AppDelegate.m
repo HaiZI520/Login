@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "NavViewController.h"
+#import "ViewController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController *view = [[ViewController alloc] init];
+    NavViewController *nav = [[NavViewController alloc] initWithRootViewController:view];
+    self.window.rootViewController = nav;
     return YES;
 }
 

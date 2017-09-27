@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8156461F7B490F00FDE7FC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81562E1F7B490F00FDE7FC /* MASCompositeConstraint.m */; };
+		2B8156471F7B490F00FDE7FC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156311F7B490F00FDE7FC /* MASConstraint.m */; };
+		2B8156481F7B490F00FDE7FC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156331F7B490F00FDE7FC /* MASConstraintMaker.m */; };
+		2B8156491F7B490F00FDE7FC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156351F7B490F00FDE7FC /* MASLayoutConstraint.m */; };
+		2B81564A1F7B490F00FDE7FC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156391F7B490F00FDE7FC /* MASViewAttribute.m */; };
+		2B81564B1F7B490F00FDE7FC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81563B1F7B490F00FDE7FC /* MASViewConstraint.m */; };
+		2B81564C1F7B490F00FDE7FC /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81563D1F7B490F00FDE7FC /* NSArray+MASAdditions.m */; };
+		2B81564D1F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156401F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2B81564E1F7B490F00FDE7FC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156421F7B490F00FDE7FC /* View+MASAdditions.m */; };
+		2B81564F1F7B490F00FDE7FC /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8156451F7B490F00FDE7FC /* ViewController+MASAdditions.m */; };
+		2B8156561F7B852300FDE7FC /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8156531F7B852300FDE7FC /* username.png */; };
+		2B8156571F7B852300FDE7FC /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8156541F7B852300FDE7FC /* password.png */; };
+		2B8156581F7B852300FDE7FC /* yanzheng.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8156551F7B852300FDE7FC /* yanzheng.png */; };
 		2BDE929A1F78FF34004E01E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92991F78FF34004E01E1 /* main.m */; };
 		2BDE929D1F78FF34004E01E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE929C1F78FF34004E01E1 /* AppDelegate.m */; };
 		2BDE92A01F78FF34004E01E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE929F1F78FF34004E01E1 /* ViewController.m */; };
@@ -15,6 +28,12 @@
 		2BDE92A81F78FF34004E01E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDE92A61F78FF34004E01E1 /* LaunchScreen.storyboard */; };
 		2BDE92B31F78FF34004E01E1 /* HZ_LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92B21F78FF34004E01E1 /* HZ_LoginTests.m */; };
 		2BDE92BE1F78FF34004E01E1 /* HZ_LoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92BD1F78FF34004E01E1 /* HZ_LoginUITests.m */; };
+		2BDE92D31F78FFFF004E01E1 /* WLButtonCountdownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92D01F78FFFF004E01E1 /* WLButtonCountdownManager.m */; };
+		2BDE92D41F78FFFF004E01E1 /* WLCaptcheButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92D21F78FFFF004E01E1 /* WLCaptcheButton.m */; };
+		2BDE92D71F79006C004E01E1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92D61F79006C004E01E1 /* LoginViewController.m */; };
+		2BDE92DA1F790079004E01E1 /* PassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92D91F790079004E01E1 /* PassViewController.m */; };
+		2BDE92DD1F790092004E01E1 /* Forget_PassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92DC1F790092004E01E1 /* Forget_PassViewController.m */; };
+		2BDE92E91F790546004E01E1 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDE92E81F790546004E01E1 /* NavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B81562A1F7B435100FDE7FC /* HZ_Login.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZ_Login.pch; sourceTree = SOURCE_ROOT; };
+		2B81562D1F7B490F00FDE7FC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2B81562E1F7B490F00FDE7FC /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2B81562F1F7B490F00FDE7FC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2B8156301F7B490F00FDE7FC /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2B8156311F7B490F00FDE7FC /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2B8156321F7B490F00FDE7FC /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2B8156331F7B490F00FDE7FC /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2B8156341F7B490F00FDE7FC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2B8156351F7B490F00FDE7FC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2B8156361F7B490F00FDE7FC /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2B8156371F7B490F00FDE7FC /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2B8156381F7B490F00FDE7FC /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2B8156391F7B490F00FDE7FC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2B81563A1F7B490F00FDE7FC /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2B81563B1F7B490F00FDE7FC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2B81563C1F7B490F00FDE7FC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2B81563D1F7B490F00FDE7FC /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2B81563E1F7B490F00FDE7FC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2B81563F1F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2B8156401F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2B8156411F7B490F00FDE7FC /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2B8156421F7B490F00FDE7FC /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2B8156431F7B490F00FDE7FC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2B8156441F7B490F00FDE7FC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2B8156451F7B490F00FDE7FC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2B8156531F7B852300FDE7FC /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		2B8156541F7B852300FDE7FC /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		2B8156551F7B852300FDE7FC /* yanzheng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yanzheng.png; sourceTree = "<group>"; };
 		2BDE92951F78FF34004E01E1 /* HZ_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZ_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDE92991F78FF34004E01E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BDE929B1F78FF34004E01E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +99,18 @@
 		2BDE92B91F78FF34004E01E1 /* HZ_LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZ_LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDE92BD1F78FF34004E01E1 /* HZ_LoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZ_LoginUITests.m; sourceTree = "<group>"; };
 		2BDE92BF1F78FF34004E01E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDE92CF1F78FFFF004E01E1 /* WLButtonCountdownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLButtonCountdownManager.h; sourceTree = "<group>"; };
+		2BDE92D01F78FFFF004E01E1 /* WLButtonCountdownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLButtonCountdownManager.m; sourceTree = "<group>"; };
+		2BDE92D11F78FFFF004E01E1 /* WLCaptcheButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCaptcheButton.h; sourceTree = "<group>"; };
+		2BDE92D21F78FFFF004E01E1 /* WLCaptcheButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCaptcheButton.m; sourceTree = "<group>"; };
+		2BDE92D51F79006C004E01E1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2BDE92D61F79006C004E01E1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2BDE92D81F790079004E01E1 /* PassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassViewController.h; sourceTree = "<group>"; };
+		2BDE92D91F790079004E01E1 /* PassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassViewController.m; sourceTree = "<group>"; };
+		2BDE92DB1F790092004E01E1 /* Forget_PassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forget_PassViewController.h; sourceTree = "<group>"; };
+		2BDE92DC1F790092004E01E1 /* Forget_PassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forget_PassViewController.m; sourceTree = "<group>"; };
+		2BDE92E71F790546004E01E1 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavViewController.h; path = login/NavViewController.h; sourceTree = "<group>"; };
+		2BDE92E81F790546004E01E1 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavViewController.m; path = login/NavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +138,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B81562B1F7B490900FDE7FC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				2B81562C1F7B490F00FDE7FC /* Masonry */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2B81562C1F7B490F00FDE7FC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2B81562D1F7B490F00FDE7FC /* MASCompositeConstraint.h */,
+				2B81562E1F7B490F00FDE7FC /* MASCompositeConstraint.m */,
+				2B81562F1F7B490F00FDE7FC /* MASConstraint+Private.h */,
+				2B8156301F7B490F00FDE7FC /* MASConstraint.h */,
+				2B8156311F7B490F00FDE7FC /* MASConstraint.m */,
+				2B8156321F7B490F00FDE7FC /* MASConstraintMaker.h */,
+				2B8156331F7B490F00FDE7FC /* MASConstraintMaker.m */,
+				2B8156341F7B490F00FDE7FC /* MASLayoutConstraint.h */,
+				2B8156351F7B490F00FDE7FC /* MASLayoutConstraint.m */,
+				2B8156361F7B490F00FDE7FC /* Masonry.h */,
+				2B8156371F7B490F00FDE7FC /* MASUtilities.h */,
+				2B8156381F7B490F00FDE7FC /* MASViewAttribute.h */,
+				2B8156391F7B490F00FDE7FC /* MASViewAttribute.m */,
+				2B81563A1F7B490F00FDE7FC /* MASViewConstraint.h */,
+				2B81563B1F7B490F00FDE7FC /* MASViewConstraint.m */,
+				2B81563C1F7B490F00FDE7FC /* NSArray+MASAdditions.h */,
+				2B81563D1F7B490F00FDE7FC /* NSArray+MASAdditions.m */,
+				2B81563E1F7B490F00FDE7FC /* NSArray+MASShorthandAdditions.h */,
+				2B81563F1F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2B8156401F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2B8156411F7B490F00FDE7FC /* View+MASAdditions.h */,
+				2B8156421F7B490F00FDE7FC /* View+MASAdditions.m */,
+				2B8156431F7B490F00FDE7FC /* View+MASShorthandAdditions.h */,
+				2B8156441F7B490F00FDE7FC /* ViewController+MASAdditions.h */,
+				2B8156451F7B490F00FDE7FC /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		2BDE928C1F78FF34004E01E1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +201,18 @@
 		2BDE92971F78FF34004E01E1 /* HZ_Login */ = {
 			isa = PBXGroup;
 			children = (
+				2B81562B1F7B490900FDE7FC /* Lib */,
+				2BDE92DE1F790155004E01E1 /* images */,
+				2BDE92CB1F78FFF5004E01E1 /* forget_pass */,
+				2BDE92CC1F78FFF5004E01E1 /* pass */,
+				2BDE92CD1F78FFF5004E01E1 /* login */,
+				2BDE92CE1F78FFF5004E01E1 /* Verification */,
 				2BDE929B1F78FF34004E01E1 /* AppDelegate.h */,
 				2BDE929C1F78FF34004E01E1 /* AppDelegate.m */,
 				2BDE929E1F78FF34004E01E1 /* ViewController.h */,
 				2BDE929F1F78FF34004E01E1 /* ViewController.m */,
+				2BDE92E71F790546004E01E1 /* NavViewController.h */,
+				2BDE92E81F790546004E01E1 /* NavViewController.m */,
 				2BDE92A11F78FF34004E01E1 /* Main.storyboard */,
 				2BDE92A41F78FF34004E01E1 /* Assets.xcassets */,
 				2BDE92A61F78FF34004E01E1 /* LaunchScreen.storyboard */,
@@ -118,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				2BDE92991F78FF34004E01E1 /* main.m */,
+				2B81562A1F7B435100FDE7FC /* HZ_Login.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +247,54 @@
 				2BDE92BF1F78FF34004E01E1 /* Info.plist */,
 			);
 			path = HZ_LoginUITests;
+			sourceTree = "<group>";
+		};
+		2BDE92CB1F78FFF5004E01E1 /* forget_pass */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE92DB1F790092004E01E1 /* Forget_PassViewController.h */,
+				2BDE92DC1F790092004E01E1 /* Forget_PassViewController.m */,
+			);
+			path = forget_pass;
+			sourceTree = "<group>";
+		};
+		2BDE92CC1F78FFF5004E01E1 /* pass */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE92D81F790079004E01E1 /* PassViewController.h */,
+				2BDE92D91F790079004E01E1 /* PassViewController.m */,
+			);
+			path = pass;
+			sourceTree = "<group>";
+		};
+		2BDE92CD1F78FFF5004E01E1 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE92D51F79006C004E01E1 /* LoginViewController.h */,
+				2BDE92D61F79006C004E01E1 /* LoginViewController.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		2BDE92CE1F78FFF5004E01E1 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE92CF1F78FFFF004E01E1 /* WLButtonCountdownManager.h */,
+				2BDE92D01F78FFFF004E01E1 /* WLButtonCountdownManager.m */,
+				2BDE92D11F78FFFF004E01E1 /* WLCaptcheButton.h */,
+				2BDE92D21F78FFFF004E01E1 /* WLCaptcheButton.m */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		2BDE92DE1F790155004E01E1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2B8156531F7B852300FDE7FC /* username.png */,
+				2B8156541F7B852300FDE7FC /* password.png */,
+				2B8156551F7B852300FDE7FC /* yanzheng.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +407,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDE92A81F78FF34004E01E1 /* LaunchScreen.storyboard in Resources */,
+				2B8156581F7B852300FDE7FC /* yanzheng.png in Resources */,
 				2BDE92A51F78FF34004E01E1 /* Assets.xcassets in Resources */,
+				2B8156571F7B852300FDE7FC /* password.png in Resources */,
 				2BDE92A31F78FF34004E01E1 /* Main.storyboard in Resources */,
+				2B8156561F7B852300FDE7FC /* username.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +436,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B81564B1F7B490F00FDE7FC /* MASViewConstraint.m in Sources */,
+				2BDE92D31F78FFFF004E01E1 /* WLButtonCountdownManager.m in Sources */,
+				2B81564A1F7B490F00FDE7FC /* MASViewAttribute.m in Sources */,
+				2BDE92E91F790546004E01E1 /* NavViewController.m in Sources */,
 				2BDE92A01F78FF34004E01E1 /* ViewController.m in Sources */,
+				2BDE92DD1F790092004E01E1 /* Forget_PassViewController.m in Sources */,
+				2B8156461F7B490F00FDE7FC /* MASCompositeConstraint.m in Sources */,
+				2B8156481F7B490F00FDE7FC /* MASConstraintMaker.m in Sources */,
+				2B81564E1F7B490F00FDE7FC /* View+MASAdditions.m in Sources */,
+				2B8156491F7B490F00FDE7FC /* MASLayoutConstraint.m in Sources */,
+				2B81564F1F7B490F00FDE7FC /* ViewController+MASAdditions.m in Sources */,
+				2B8156471F7B490F00FDE7FC /* MASConstraint.m in Sources */,
+				2BDE92DA1F790079004E01E1 /* PassViewController.m in Sources */,
+				2BDE92D71F79006C004E01E1 /* LoginViewController.m in Sources */,
+				2B81564C1F7B490F00FDE7FC /* NSArray+MASAdditions.m in Sources */,
+				2B81564D1F7B490F00FDE7FC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				2BDE929D1F78FF34004E01E1 /* AppDelegate.m in Sources */,
 				2BDE929A1F78FF34004E01E1 /* main.m in Sources */,
+				2BDE92D41F78FFFF004E01E1 /* WLCaptcheButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +602,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3P5PXQLFSF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HZ_Login.pch;
 				INFOPLIST_FILE = HZ_Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HZ.HZ-Login";
@@ -438,6 +616,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3P5PXQLFSF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HZ_Login.pch;
 				INFOPLIST_FILE = HZ_Login/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HZ.HZ-Login";
@@ -514,6 +694,7 @@
 				2BDE92C41F78FF34004E01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDE92C51F78FF34004E01E1 /* Build configuration list for PBXNativeTarget "HZ_LoginTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +703,7 @@
 				2BDE92C71F78FF34004E01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDE92C81F78FF34004E01E1 /* Build configuration list for PBXNativeTarget "HZ_LoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +712,7 @@
 				2BDE92CA1F78FF34004E01E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

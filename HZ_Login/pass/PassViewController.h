@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PassViewController.h
 //  HZ_Login
 //
 //  Created by 海子 on 2017/9/25.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface ViewController : UIViewController
 
+@interface PassViewController : UIViewController
 
 @end
-
